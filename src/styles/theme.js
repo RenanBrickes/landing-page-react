@@ -1,3 +1,4 @@
+
 export const theme = {
     colors: {
         primaryColor: '#0A1128',
@@ -24,3 +25,7 @@ export const theme = {
         lteMedium: '(max-width : 768px)',
     }
 }
+
+// export const renderTheme = (children) => {
+//   return render(<ThemeProvider theme={theme}>{children}</ThemeProvider>);
+// };
