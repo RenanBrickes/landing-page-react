@@ -13,7 +13,7 @@ export const parameters = {
     default: 'Claro',
     values: [
       { name: 'Escuro', value: theme.colors.primaryColor },
-      { name: 'Claro', value: theme.colors.secondaryColor },
+      { name: 'Claro', value: theme.colors.whiteColor },
     ],
   },
 }
