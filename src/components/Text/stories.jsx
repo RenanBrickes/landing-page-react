@@ -11,7 +11,7 @@ export default {
          Quisque bibendum dapibus augue. Sed eget lorem nisl.
          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
          Curabitur tincidunt at est in placerat.
-         Vivamus pretium, magna consequat mattis lacinia, orci est congue tellus`
+         Vivamus pretium, magna consequat mattis lacinia, orci est congue tellus`,
     },
     argsType: {
         children: { type: 'string' },
