@@ -16,7 +16,7 @@ const titleSizes = {
 }
 
 const caseTitle = (upperCase) => css`
-    text-transform ${upperCase ? "uppercase" : "lowercase"}
+    text-transform : ${upperCase ? "uppercase" : "lowercase"};
 `
 
 const mediaFont = (theme) => css`
@@ -29,6 +29,7 @@ const mediaFont = (theme) => css`
 
 export const Title = styled.h1`
     ${({ theme, colorDark, size, upperCase }) => css`
+        ${console.log(colorDark)};
         color: ${colorDark ? theme.colors.whiteColor : theme.colors.primaryColor};
         ${titleSizes[size](theme)};
         ${caseTitle(upperCase)}
