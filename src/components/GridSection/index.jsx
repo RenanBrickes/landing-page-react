@@ -6,17 +6,17 @@ import { Heading } from '../Heading';
 import { Texting } from '../Text';
 export const GridSection = ({ title, description, grid, background = false }) => {
     return (
-        <SectionBackground background={!background}>
+        <SectionBackground background={background}>
             <SectionContainer>
                 <styled.Container>
-                    <Heading size='huge' colorDark={!background} as="h2" >
+                    <Heading size='huge' upperCase={true} colorDark={background} as="h2" >
                         {title}
                     </Heading>
                     <Texting>{description}</Texting>
                     <styled.Grid>
                         {grid.map((elemente, index) => (
                             <styled.GridElemente key={index} >
-                                <Heading size='small' colorDark={!background} >{elemente.title}</Heading>
+                                <Heading size='small' colorDark={background} >{elemente.title}</Heading>
                                 <Texting>{elemente.description}</Texting>
                             </styled.GridElemente>
                         ))}

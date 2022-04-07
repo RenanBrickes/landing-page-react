@@ -5,11 +5,15 @@ export const GllobalStyles = createGlobalStyle`
     html {
         font-size: 62.5%;
         scroll-behavior : smooth;
+        margin : 0;
+        padding : 0;
     }
 
     body {
         font-size: 1.6rem;
-        font-family: ${(theme) => theme.theme.font.family.default}
+        font-family: ${(theme) => theme.theme.font.family.default};
+        margin: 0;
+        padding: 0;
     }
     
     h1 {

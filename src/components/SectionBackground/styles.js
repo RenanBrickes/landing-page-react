@@ -12,6 +12,7 @@ export const SectionBackground = styled.section`
         ${background &&(containerBackgroundActivate(theme))};
         min-height: 100vh;
         display : flex;
-        aling-intens : center;
+        align-items : center;
+        margin-top: 50px;
     `}
 `;

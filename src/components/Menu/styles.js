@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { Container as SectionContainer } from '../SectionContainer/styles';
+import { SectionContainer as SectionContainer } from '../SectionContainer/styles';
 import { Title as Heading } from '../Heading/styles';
 
 const menuVisible = (theme) => css`
@@ -15,12 +15,12 @@ export const Container = styled.div`
     left: 0;
     right: 0;
     width: 100%;
+    background-color : ${theme.colors.whiteColor};
     border-bottom: ${theme.colors.mediumGray};
-    background: ${theme.colors.white};
     transition: all 300ms ease-in-out;
     > ${SectionContainer} {
       padding-top: 0;
-      padding-bottom: 0;
+      padding-bottom: 10px;
     }
     & ${Heading} {
       margin-top: 0;

@@ -1,6 +1,6 @@
 import p from 'prop-types';
 import * as Styled from './styles';
-import { SectionContainer } from '../SectionContainer/index';
+import { SectionContainer } from '../SectionContainer';
 import { Logo } from '../Logo/index';
 import { Nav } from '../Nav/index';
 import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu'

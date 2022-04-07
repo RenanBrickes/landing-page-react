@@ -1,5 +1,5 @@
 export default {
-    background: false,
+    background: true,
     title: 'My grid',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     grid: [

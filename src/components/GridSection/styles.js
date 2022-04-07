@@ -1,9 +1,14 @@
 import styled, { css } from 'styled-components';
-import { Title as HeadingContainer } from '../Heading/styles'
+import { Title as HeadingContainer } from '../Heading/styles';
+import { Container as Texting } from '../Text/styles';
 
 export const Container = styled.div`
     ${({ theme }) => css`
-    
+
+        ${Texting} {
+            font-size : ${theme.font.size.medium}
+        }
+
     `}
 `;
 export const Grid = styled.div`

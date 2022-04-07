@@ -17,5 +17,5 @@ Nav.propTypes = {
             link: p.string.isRequired,
             newTable: p.bool
         }),
-    ).isRequired
+    )
 };
